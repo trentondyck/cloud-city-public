@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Cloud City</title>
+  <style>
+    body { font-family: sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { font-size: 2em; margin-bottom: 0.2em; }
+    h2 { margin-top: 2em; }
+    h3 { margin-top: 1.5em; }
+    table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+    th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    th { background: #f5f5f5; }
+    code { background: #f5f5f5; padding: 2px 5px; border-radius: 3px; font-size: 0.9em; }
+    nav { margin-bottom: 2em; font-size: 0.9em; }
+    nav a { color: #555; }
+    footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; font-size: 0.9em; color: #555; }
+    footer a { color: #555; }
+  </style>
+</head>
+<body>
+
+  <nav><a href="index.html">← Cloud City</a></nav>
+
+  <h1>Privacy Policy</h1>
+  <p>Welcome to the Cloud City app for Android!</p>
+  <p>As a developer, I take privacy very seriously. I know how frustrating it is when apps collect your data without your knowledge.</p>
+
+  <h2>Data collected by the app</h2>
+  <p>I hereby state, to the best of my knowledge and belief, that I have not programmed this app to collect any personally identifiable information. All data created by you (the user) is stored locally on your device only, and can be erased by clearing the app's data or uninstalling it. No analytics software is present in the app.</p>
+  <p>However, Cloud City integrates <strong>Google Play Billing</strong> (for in-app purchases), which may collect certain data independently. Please refer to the relevant section below for details.</p>
+
+  <h2>Third-party services</h2>
+
+  <h3>Google Play Billing</h3>
+  <p>In-app purchases are handled entirely by the Google Play Billing system. Any payment or transaction data you provide is processed by Google and is subject to Google's Terms of Service and Privacy Policy. The app itself does not store or transmit your payment information.</p>
+
+  <h2>Permissions</h2>
+  <table>
+    <tr><th>Permission</th><th>Why it is required</th></tr>
+    <tr><td><code>android.permission.INTERNET</code></td><td>Required to load game assets via CDN (React, Three.js, Tailwind CSS).</td></tr>
+    <tr><td><code>android.permission.WRITE_EXTERNAL_STORAGE</code></td><td>Required on Android 9 and below to share files via the system share sheet. Not requested on Android 10 or later.</td></tr>
+    <tr><td><code>com.android.vending.BILLING</code></td><td>Required to facilitate in-app purchases through the Google Play Billing system.</td></tr>
+    <tr><td><code>android.permission.WAKE_LOCK</code></td><td>Prevents the screen from dimming or turning off while you are actively playing.</td></tr>
+  </table>
+
+  <footer>
+    <p>Questions? Contact <a href="mailto:yorkie.joey.joester@gmail.com">yorkie.joey.joester@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
