@@ -38,4 +38,10 @@ Cloud City requires no device permissions. No camera, no microphone, no location
 
 ---
 
-[Privacy Policy](https://github.com/trentondyck/cloud-city-public/blob/main/PRIVACY_POLICY.md) · [Terms of Service](https://github.com/trentondyck/cloud-city-public/blob/main/TERMS_OF_SERVICE.md)
+## Privacy Policy
+
+View our [Privacy Policy](https://github.com/trentondyck/cloud-city-public/blob/main/PRIVACY_POLICY.md).
+
+## Terms of Service
+
+View our [Terms of Service](https://github.com/trentondyck/cloud-city-public/blob/main/TERMS_OF_SERVICE.md).
